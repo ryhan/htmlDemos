@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>  
+  <title>Animations</title>
+  <link rel="stylesheet" type="text/css" href="../css/default.css">
+</head>
+<body>
+
+  <img id="cat1" class="cat" src="../img/cat.jpg"/>
+
+  <style>
+    #cat1{
+      -webkit-animation: myAnimationName ease-in-out 1s infinite alternate; 
+    }
+
+    @-webkit-keyframes myAnimationName
+    {
+       0%{  left: -250px;   -webkit-transform: scale(1.0) rotate(-20deg)   }
+       50%  {left: 0px; -webkit-transform: scale(0.8) rotate(0deg)  }
+       100%   {left: 250px; -webkit-transform: scale(1.2) rotate(20deg) }
+    }
+
+  </style>
+
+</body>
+</html>

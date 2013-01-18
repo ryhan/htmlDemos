@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>  
+  <title>Transitions</title>
+  <link rel="stylesheet" type="text/css" href="../css/default.css">
+</head>
+<body>
+
+  <img id="troll1" class="troll" src="../img/troll.png"/>
+  <img id="troll2" class="troll" src="../img/troll.png"/>
+  <img id="troll3" class="troll" src="../img/troll.png"/>
+  <img id="troll4" class="troll" src="../img/troll.png"/>
+  <img id="troll5" class="troll" src="../img/troll.png"/>
+  <img id="troll6" class="troll" src="../img/troll.png"/>
+
+  <style>
+    .troll{
+      -webkit-transition: all 0.5s;
+    }
+
+    #troll1:hover{ -webkit-transform: scale(2); }
+    #troll2:hover{ -webkit-transform: rotate(360deg);}
+    #troll3:hover{ top: -2500px; }
+    #troll4:hover{ -webkit-transform: scale(0.5) rotate(40deg) }
+    #troll5:hover{ -webkit-transform: skew(5deg,10deg); left: -100px; top: -100px;}
+    #troll6:hover{ -webkit-transform: scale(5); opacity: 0; }
+
+  </style>
+
+</body>
+</html>

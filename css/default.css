@@ -1,0 +1,30 @@
+body{
+  font-family: HelveticaNeue, 'Helvetica Neue', HelveticaNeueRoman, HelveticaNeue-Roman, 'Helvetica Neue Roman', Helvetica, Tahoma, Geneva, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  font-weight: normal;
+  line-height: 26px;
+  padding: 0;
+  margin: 100px auto;
+  text-align: center;
+  width: 720px;
+}
+
+div,
+span,
+nav,
+header,
+section{
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.cat,
+.troll{
+  position: relative;
+  width: 180px;
+  margin: 20px;
+}
